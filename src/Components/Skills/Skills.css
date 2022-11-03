@@ -1,0 +1,123 @@
+.main_s {
+  height: 70vh;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+.s {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto;
+  width: 90%;
+}
+.s img {
+  height: 80px;
+  width: 70%;
+  /* height: 130px;
+  width: 150px; */
+  background: none;
+  margin-bottom: 40px;
+}
+.s > div {
+  margin: 10px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  transition-property: background-color;
+  transition: 1s;
+}
+.s > div:hover {
+  background-color: #edf2f8;
+}
+#skill_h {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--yellow);
+}
+#tech {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+#tech_2 {
+  color: #59b256;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+@media all and (min-width: 320px) and (max-width: 499px) {
+  .main_s {
+    height: 150vh;
+    width: 100%;
+    width: 100vw;
+  }
+  .s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    width: 95%;
+    gap: 0;
+  }
+  .s > div {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+  }
+  #skill_h,
+  #tech,
+  #tech_2 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 767px) {
+  .main_s {
+    height: 135vh;
+    width: 100%;
+  }
+  .s {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    gap: 0;
+  }
+  .s > div {
+    margin: 10px 10px;
+  }
+  #skill_h,
+  #tech,
+  #tech_2 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 1024px) {
+  .main_s {
+    height: 130vh;
+    width: 100%;
+  }
+  .s {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 95%;
+    gap: 0;
+  }
+  .s > div {
+    margin: 10px 10px;
+  }
+  #skill_h,
+  #tech,
+  #tech_2 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+}

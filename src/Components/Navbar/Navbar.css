@@ -1,37 +1,124 @@
-.n-wrapper{
-    height: 10vh;
-    display: flex;
-    justify-content: space-between
-    ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.n-left{
-    flex: 1;
+.n-wrapper {
+   position: fixed;
+    top: -5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 6.5rem;
+  
+  z-index: 1000000;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#logo > a {
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+ul > li {
+  padding-right: 50px;
+ 
+}
+ul > li a:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+#a_resume:hover{
+  color: var(--orange);
+ 
+}
+#bar {
+  color: var(--orange);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  display: none;
+}
+@media screen and (max-width: 1042px) {
+  .n-wrapper {
+    top: -5px;
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 0.5rem 4.5rem;
+  
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  #logo > a {
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  ul {
     display: flex;
-    gap: 2rem;
-}
-.n-name{
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-.n-right{
-    display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
-
+    flex-direction: row;
+  }
+  ul > li {
+    padding-right: 30px;
+  }
+  ul > li a {
+    font-size: 0.9rem;
+  }
 }
-.n-list{
-    flex: 10;
-
-}
-.n-list>ul{
-    display: flex;
-    gap: 2rem;
-    margin-left: 4rem;
-}
-.n-list> ul>li:hover{
+@media screen and (max-width: 991px) {
+  #bar {
+    display: initial;
     cursor: pointer;
-    color: var(--orange)
+  }
+
+  .n-wrapper {
+    padding: 1rem 5rem;
+   
+  }
+  #logo > a {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  #item {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 80vh;
+    top: 0;
+    right: -300px;
+    background-color: white;
+    
+    margin-top: 4.2rem;
+    z-index: 1000000000;
+    transition: 0.5s;
+  }
+  ul > li > a {
+    padding-right: 0;
+    padding: 4px 0;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 496px) {
 }

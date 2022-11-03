@@ -1,0 +1,27 @@
+.t{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid #999;
+    background-color: white;
+    position: fixed;
+    top: 25px;
+    right: 10px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.t-icon{
+    width: 15px;
+    height: 15px;
+}
+.t-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+}

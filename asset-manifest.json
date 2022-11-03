@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4018e266.css",
-    "main.js": "/static/js/main.a5b1b428.js",
+    "main.css": "/static/css/main.262546db.css",
+    "main.js": "/static/js/main.3a9e7ace.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Shephora.gif": "/static/media/Shephora.f5d291389198d8719b2e.gif",
     "static/media/Coshedule.gif": "/static/media/Coshedule.457b7cdd9bc8aae7f161.gif",
     "static/media/about.png": "/static/media/about.1e0c455ea1080d287d7f.png",
     "static/media/profile.png": "/static/media/profile.c5d5df0dda56aa692da7.png",
+    "static/media/Tarun-Upadhyay-Resume.pdf": "/static/media/Tarun-Upadhyay-Resume.625af3f422a256edbc75.pdf",
     "static/media/mongoose.png": "/static/media/mongoose.d1e73d9c472680150b28.png",
     "static/media/react.png": "/static/media/react.1ce7b597e7ddb0fccde3.png",
     "static/media/address.png": "/static/media/address.a01cb8cc428702f30bec.png",
@@ -21,12 +22,12 @@
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/chakra.png": "/static/media/chakra.22937fcd5af2100437bd.png",
     "index.html": "/index.html",
-    "main.4018e266.css.map": "/static/css/main.4018e266.css.map",
-    "main.a5b1b428.js.map": "/static/js/main.a5b1b428.js.map",
+    "main.262546db.css.map": "/static/css/main.262546db.css.map",
+    "main.3a9e7ace.js.map": "/static/js/main.3a9e7ace.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4018e266.css",
-    "static/js/main.a5b1b428.js"
+    "static/css/main.262546db.css",
+    "static/js/main.3a9e7ace.js"
   ]
 }

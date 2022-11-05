@@ -1,12 +1,14 @@
 import { useContext } from "react";
 import "./App.css";
 import About from "./Components/About/About";
+import Calender from "./Components/Calender";
 import Contact from "./Components/Contact/Contact";
 import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
 
 import Skills from "./Components/Skills/Skills";
+import Stats from "./Components/stats";
 import { ThemeContext } from "./context";
 
 function App() {
@@ -19,6 +21,8 @@ const theme = state.darkMode;
       <Intro />
       <About/>
       <Skills/>
+      <Calender/>
+      <Stats/>
      <Projects/>
       <Contact/>
     </div>

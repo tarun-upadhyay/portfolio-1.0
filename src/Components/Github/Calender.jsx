@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
+import "./Calender.css"
 const Calender = () => {
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
@@ -19,7 +20,8 @@ const Calender = () => {
     });
   };
   return (
-    <div>
+    <div className="cal">
+      
       <GitHubCalendar
         style={{ margin: "auto" }}
         username="tarun-upadhyay"

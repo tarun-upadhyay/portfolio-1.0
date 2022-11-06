@@ -104,7 +104,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        {/* <li>
+        <li>
           <a
             href="https://drive.google.com/file/d/1HIh48C2cqkc8bAgmB5vnDb-fkb2XVuoX/view?usp=sharing"
             style={{ textDecoration: "none", color: mode ? "var(--orange)" : "black" }}
@@ -112,7 +112,7 @@ const Navbar = () => {
           id="a_resume">
             Resume
           </a>
-        </li> */}
+        </li>
       </ul>
 
       <TfiAlignJustify

@@ -15,7 +15,7 @@ const Projectlist = ({img,name,github,tech,deployed,detail}) => {
                 <p className="tech_stack" style={{color: "red", paddding: "5px", fontSize:"18px"}}>
                     Tech Stack: 
                 </p>
-                <p className="tech_used">
+                <p className="tech_used" style={{fontWeight: "bolder"}}>
                     {tech}
                 </p>
             </div>

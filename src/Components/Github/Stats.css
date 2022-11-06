@@ -1,0 +1,52 @@
+.lang_stats{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    gap: 5%;
+    margin-top: 2%;
+}
+.lang_stats a{
+    margin-top: 5px;
+}
+.lang_st_img{
+    width: 100%;
+}
+.streak{
+    margin: auto;
+    width: 45%;
+}
+.streak_img{
+    width: 100%;
+}
+
+@media screen and (min-width: 1042px) {
+.streak{
+    width: 50%;
+}
+  
+  }
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .lang_stats{
+     width: 90%;
+    
+    } 
+   a img{
+    width: 90%;
+   }
+   .streak{
+    width: 52%;
+   }
+  }
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .lang_stats{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    width: 90%;    
+    }
+    .streak{
+        width: 80%;
+    }
+  }
+  

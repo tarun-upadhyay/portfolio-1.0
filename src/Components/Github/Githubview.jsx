@@ -14,6 +14,7 @@ const Githubview = () => {
        Work</h1>
       <Calender />
       <Stats />
+      <div id="Projects"></div>
     </div>
   );
 };

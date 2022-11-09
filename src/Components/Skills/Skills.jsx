@@ -19,7 +19,7 @@ const Skills = () => {
         })
       }
     </div>
-    <div id="Projects"></div>
+   
    </div>
   )
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bb0014f6.css",
-    "main.js": "/static/js/main.cc731d46.js",
+    "main.js": "/static/js/main.bb2f3912.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/about.gif": "/static/media/about.37ef1e1a376ff1b6c967.gif",
     "static/media/NordStrom.gif": "/static/media/NordStrom.5fa5ffc46f826acb87e9.gif",
@@ -26,11 +26,11 @@
     "static/media/chakra.png": "/static/media/chakra.22937fcd5af2100437bd.png",
     "index.html": "/index.html",
     "main.bb0014f6.css.map": "/static/css/main.bb0014f6.css.map",
-    "main.cc731d46.js.map": "/static/js/main.cc731d46.js.map",
+    "main.bb2f3912.js.map": "/static/js/main.bb2f3912.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb0014f6.css",
-    "static/js/main.cc731d46.js"
+    "static/js/main.bb2f3912.js"
   ]
 }

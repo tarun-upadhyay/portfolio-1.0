@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bb0014f6.css",
-    "main.js": "/static/js/main.4e8d94cd.js",
+    "main.js": "/static/js/main.6bf7ccfb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/NordStrom.gif": "/static/media/NordStrom.5fa5ffc46f826acb87e9.gif",
     "static/media/Tripvillas.gif": "/static/media/Tripvillas.8b46a6b3ae06a97d4974.gif",
     "static/media/Shephora.gif": "/static/media/Shephora.83490419eadc00607e97.gif",
     "static/media/Weather.gif": "/static/media/Weather.453a875369e86cec8bf8.gif",
-    "static/media/about.png": "/static/media/about.212a71bc08beb6bd567b.png",
     "static/media/Coshedule.gif": "/static/media/Coshedule.5c2332425576c9c5d695.gif",
     "static/media/profile.png": "/static/media/profile.c5d5df0dda56aa692da7.png",
     "static/media/Tarun-Upadhyay-Resume.pdf": "/static/media/Tarun-Upadhyay-Resume.625af3f422a256edbc75.pdf",
@@ -23,14 +22,15 @@
     "static/media/phone.png": "/static/media/phone.d90a6d23cf5129d853bb.png",
     "static/media/moon.png": "/static/media/moon.3bea3d398a25611d421b.png",
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/about.png": "/static/media/about.c4e9365f19cd5f90d910.png",
     "static/media/chakra.png": "/static/media/chakra.22937fcd5af2100437bd.png",
     "index.html": "/index.html",
     "main.bb0014f6.css.map": "/static/css/main.bb0014f6.css.map",
-    "main.4e8d94cd.js.map": "/static/js/main.4e8d94cd.js.map",
+    "main.6bf7ccfb.js.map": "/static/js/main.6bf7ccfb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb0014f6.css",
-    "static/js/main.4e8d94cd.js"
+    "static/js/main.6bf7ccfb.js"
   ]
 }

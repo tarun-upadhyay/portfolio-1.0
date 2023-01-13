@@ -6,7 +6,7 @@ import pic from "../../img/profile.png";
 import gmail from "../../img/gmail.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
-import Resume from '../../img/Tarun-Upadhyay-Resume.pdf'
+import Resume from '../../img/Tarun-Kumar-Upadhyay-Resume.pdf'
 const Intro = () => {
   const {state} = useContext(ThemeContext)
   return (
@@ -29,7 +29,7 @@ const Intro = () => {
             details. Enthusiastic and hard-working web developer.
           </span>
         </div>
-        <a href={Resume} download><button className="button i-button">Resume</button></a>
+        <a href={Resume} download target="_blank"><button className="button i-button">Resume</button></a>
         
         <div className="i-icons">
           <a href="https://github.com/tarun-upadhyay" target="_blank" rel="noreferrer">

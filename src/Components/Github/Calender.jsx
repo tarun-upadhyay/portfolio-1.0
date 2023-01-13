@@ -4,9 +4,12 @@ import ReactTooltip from "react-tooltip";
 import "./Calender.css"
 const Calender = () => {
   const selectLastHalfYear = (contributions) => {
+    // console.log(contributions)
     const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
-    const shownMonths = 7;
+// console.log(currentYear)
+const currentMonth = new Date().getMonth();
+// console.log(currentMonth)
+    const shownMonths = 8;
 
     return contributions.filter((day) => {
       const date = new Date(day.date);
@@ -19,16 +22,17 @@ const Calender = () => {
       );
     });
   };
+  // selectLastHalfYear(new Array(375).fill(5))
   return (
     <div className="cal">
       
       <GitHubCalendar
         style={{ margin: "auto" }}
         username="tarun-upadhyay"
-        transformData={selectLastHalfYear}
-        transformData={selectLastHalfYear}
+        transformData={{}}
         blockSize={29}
         fontSize={30}
+       
       >
         <ReactTooltip delayShow={20} html />
       </GitHubCalendar>

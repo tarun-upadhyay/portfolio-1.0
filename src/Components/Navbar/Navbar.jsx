@@ -106,7 +106,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1HIh48C2cqkc8bAgmB5vnDb-fkb2XVuoX/view?usp=sharing"
+            href="https://1drv.ms/b/s!AholmFLz4o5U8l5ZvA99-fPc3RM5?e=Uk5vBa"
             style={{ textDecoration: "none", color: mode ? "var(--orange)" : "black" }}
             target="_blank"
           id="a_resume">

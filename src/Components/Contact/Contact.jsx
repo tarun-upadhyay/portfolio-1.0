@@ -38,12 +38,12 @@ const Contact = () => {
     formRef.current[3].value = null;
   };
   return (
-    <div className="c" id="Contact">
+    <div className="c" >
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Let's Discuss your project</h1>
-          <div className="c-info">
+          <div className="c-info"  >
            <a href="tel:+919015837752" target="_blank" style={{textDecoration: "none", color: theme ? "white" : "black"}}>
            <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />

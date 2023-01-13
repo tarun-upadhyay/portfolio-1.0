@@ -8,6 +8,7 @@ import Projectlist from './Projectlist'
 const Projects = () => {
   console.log(arr)
   return (
+    <>
     <div className="project_parent" >
       <h1 id='heading_project'>
 My Creative <span id='project_head_child'>Portfolio Section</span>
@@ -16,12 +17,14 @@ My Creative <span id='project_head_child'>Portfolio Section</span>
       <div className="p_main">
         {
           arr.map((el)=>{
-       return  <Projectlist key={el.id} {...el}/>
+            return  <Projectlist key={el.id} {...el}/>
           })
         }
       </div>
 
     </div>
+    <div id="Contact"></div>
+        </>
   )
 }
 

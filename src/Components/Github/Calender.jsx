@@ -31,7 +31,7 @@ const currentMonth = new Date().getMonth();
         username="tarun-upadhyay"
         transformData={{}}
         // blockSize={29}
-        fontSize={5}
+        fontSize={20}
        
       >
         <ReactTooltip delayShow={20} html />

@@ -6,7 +6,7 @@ const Projectlist = ({img,name,github,tech,deployed,detail}) => {
   return (
     <div>
         <div className="project_child">
-            <img src={img} alt="" />
+            <img src={img} alt=""  id="projects-imgs"/>
             <p id='pr_name'>{name}</p>
             <p className="details">
                 {detail}

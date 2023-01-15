@@ -1,7 +1,7 @@
 .main_s {
-  height: 70vh;
+  /* height: 70vh; */
   margin-top: 5rem;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 .s {
   display: grid;
@@ -50,9 +50,10 @@
 }
 @media all and (min-width: 320px) and (max-width: 499px) {
   .main_s {
-    height: 150vh;
+    /* height: 140vh; */
     width: 100%;
-    width: 100vw;
+
+   margin-bottom: -5rem;
   }
   .s {
     display: grid;
@@ -77,8 +78,9 @@
 }
 @media all and (min-width: 500px) and (max-width: 767px) {
   .main_s {
-    height: 135vh;
+    height: 100vh;
     width: 100%;
+   
   }
   .s {
     display: grid;
@@ -101,7 +103,8 @@
 }
 @media all and (min-width: 767px) and (max-width: 1024px) {
   .main_s {
-    height: 130vh;
+    height: 70vh;
+   
     width: 100%;
   }
   .s {

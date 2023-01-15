@@ -1,5 +1,5 @@
 .a {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   width: 80%;
   align-items: center;
@@ -13,7 +13,7 @@
   justify-content: center;
   position: relative;
   height: 100%;
-
+margin-top: 4rem;
 }
 .a-right {
   flex: 1;
@@ -78,5 +78,16 @@
 @media screen and (max-width: 1024px) {
   .a {
     margin-top: 10px;
+    
+  }
+  .a-img {
+    
+    border-radius: 10%;
+    height: 70%;
+    
+   
+  }
+  .a-left {
+    margin-top: 10rem;
   }
 }

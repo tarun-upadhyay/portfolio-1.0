@@ -30,8 +30,8 @@ const currentMonth = new Date().getMonth();
         style={{ margin: "auto" }}
         username="tarun-upadhyay"
         transformData={{}}
-        blockSize={29}
-        fontSize={30}
+        // blockSize={29}
+        fontSize={5}
        
       >
         <ReactTooltip delayShow={20} html />

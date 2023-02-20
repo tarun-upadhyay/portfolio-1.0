@@ -14,6 +14,7 @@ const Contact = () => {
   const theme = state.darkMode;
   const formRef = useRef();
   const handleSubmit = (e) => {
+    console.log(formRef.current)
     e.preventDefault();
     emailjs
       .sendForm(
@@ -87,26 +88,30 @@ const Contact = () => {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             /> <br />
             <input
               style={{ backgroundColor: theme && "#333" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             /> <br />
             <input
               style={{ backgroundColor: theme && "#333" }}
               type="email"
               placeholder="Email"
               name="user_email"
+              required
             /> 
             <textarea
               style={{ backgroundColor: theme && "#333" }}
               placeholder="Message"
               name="message"
               rows="5"
+              required
             ></textarea>
-            <button disabled={thank}>Submit</button>
+            <button disabled={thank} style={{ display: thank ? "none" : ""}}>Submit</button>
             {thank && "Thankyou..."}
           </form>
         </div>

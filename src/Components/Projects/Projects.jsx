@@ -6,7 +6,7 @@ import Projectlist from './Projectlist'
 
 
 const Projects = () => {
-  console.log(arr)
+ 
   return (
     <>
     <div className="project_parent" >
